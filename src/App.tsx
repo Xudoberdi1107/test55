@@ -34,6 +34,7 @@ function App() {
 
   return (
     <div>
+      <h1>Test</h1>
       <div className="form">
         <input type="text" ref={inputName} />
         <input type="number" ref={inputNumber} />
@@ -45,6 +46,7 @@ function App() {
           send
         </button>
       </div>
+
       <ul>
         {products?.map((product, i) => {
           return (
